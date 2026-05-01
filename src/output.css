@@ -241,6 +241,9 @@
   .mt-\[20px\] {
     margin-top: 20px;
   }
+  .mt-\[25px\] {
+    margin-top: 25px;
+  }
   .mt-\[30px\] {
     margin-top: 30px;
   }
@@ -760,6 +763,10 @@
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
   }
+  .tracking-\[1px\] {
+    --tw-tracking: 1px;
+    letter-spacing: 1px;
+  }
   .tracking-\[5px\] {
     --tw-tracking: 5px;
     letter-spacing: 5px;
@@ -1051,6 +1058,11 @@
   .lg\:text-\[20px\] {
     @media (width >= 64rem) {
       font-size: 20px;
+    }
+  }
+  .lg\:text-\[22px\] {
+    @media (width >= 64rem) {
+      font-size: 22px;
     }
   }
   .lg\:text-\[24px\] {
