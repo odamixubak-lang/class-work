@@ -331,6 +331,9 @@
   .h-\[503\] {
     height: 503;
   }
+  .h-\[508px\] {
+    height: 508px;
+  }
   .h-\[675x\] {
     height: 675x;
   }
@@ -339,6 +342,9 @@
   }
   .h-\[1000px\] {
     height: 1000px;
+  }
+  .h-\[5080px\] {
+    height: 5080px;
   }
   .h-full {
     height: 100%;
@@ -584,6 +590,9 @@
   .bg-\[\#D7FFD3\] {
     background-color: #D7FFD3;
   }
+  .bg-\[\#ECF9EB\] {
+    background-color: #ECF9EB;
+  }
   .bg-\[\#f4f3f3\] {
     background-color: #f4f3f3;
   }
@@ -750,6 +759,14 @@
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
+  }
+  .tracking-\[5px\] {
+    --tw-tracking: 5px;
+    letter-spacing: 5px;
+  }
+  .tracking-\[10px\] {
+    --tw-tracking: 10px;
+    letter-spacing: 10px;
   }
   .text-\[\#55A630\] {
     color: #55A630;
@@ -1060,6 +1077,10 @@
   syntax: "*";
   inherits: false;
 }
+@property --tw-tracking {
+  syntax: "*";
+  inherits: false;
+}
 @property --tw-shadow {
   syntax: "*";
   inherits: false;
@@ -1137,6 +1158,7 @@
       --tw-border-style: solid;
       --tw-leading: initial;
       --tw-font-weight: initial;
+      --tw-tracking: initial;
       --tw-shadow: 0 0 #0000;
       --tw-shadow-color: initial;
       --tw-shadow-alpha: 100%;
